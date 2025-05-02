@@ -21,12 +21,12 @@ cd Monad-testnet-bot
 ```sh
 pip install -r requirements.txt
 ```
-3. **Prepare Input Files:**
-- Open the `pvkey.txt`: Add your private keys (one per line) in the root directory.
+3. **Create Required Input Files:**
+- Create and open `pvkey.txt`: Add your private keys (one per line) in the root directory.
 ```sh
 nano pvkey.txt 
 ```
-- Open the `address.txt`(optional): Add recipient addresses (one per line) for `sendtx.py`.
+- create and open `address.txt`(optional): Add recipient addresses (one per line) for `sendtx.py`.
 ```sh
 nano address.txt 
 ```
@@ -39,7 +39,7 @@ python main.py
 
 ## Features Overview
 
-### 2.Kitsu Staking
+### 2.Kintsu Staking
 - **Description**: Automates staking and unstaking MON tokens on the Kitsu Staking contract.
 - **Features**:
   - Supports multiple private keys from `pvkey.txt`.
